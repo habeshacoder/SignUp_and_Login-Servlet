@@ -6,4 +6,4 @@ some discriptin : database i used mysql.
                   code editor ,eclipse.
 this project contains both registration and and sign in validation using servlet java API.
 
-live link :  https://habeshacoder.github.io/SignUp_and_Login-Servlet/
+
