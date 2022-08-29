@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HealthCare service</title>
+<link rel="stylesheet" type="text/css" href="indexfile.css">
+</head>
+<body>
+	<a href="/ServletWebApp/login.html">open login page</a>
+	<h2>Registration Page</h2>
+	<br>
+	<div class="login">
+		<form action="/ServletWebApp/register" method="post">
+			<label><b>User Name : </b> </label> <input type="text"
+				name="username" id="Uname" placeholder="Username"> <br>
+			<br> <label><b>Password : </b> </label> <input type="Password"
+				name="password" id="Pass" placeholder="Password"> <br>
+			<br> <label><b>sex : </b> </label> <input type="radio"
+				name="sex" value="M" />Male <input type="radio" name="sex"
+				value="F" />Female <br>
+			<br>
+			<br>
+			<br> <label><b>nationality : </b> </label> <select
+				name="nationality">
+				<option value="Ethiopia">Ethiopian</option>
+				<option value="kenya">kenya</option>
+				<option value="sudan">sudan</option>
+			</select> <br>
+			<br> <br>
+			<br> <label><b>Favorite foods </b> </label> <input
+				type="checkbox" name="food" value="berger" />berger <input
+				type="checkbox" name="food" value="doro" />doro <input
+				type="checkbox" name="food" value="pizza" />pizza <br>
+			<br> <br>
+			<br> <input type="submit" name="log" id="log"
+				value="SUBMIT INPUTS"> <br>
+			<br>
+		</form>
+	</div>
+	<div class="return"></div>
+</body>
+</html>
